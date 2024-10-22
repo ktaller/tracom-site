@@ -11,7 +11,7 @@ body {
   align-items: center;
   
   margin-top: 4px;
-  background-color: #9b9471;
+  background-color: #ffffff;
   /* background-image: url("./Assets/particles.webp"); */
   background-repeat: no-repeat;
   background-size: cover;
@@ -20,14 +20,18 @@ body {
 /* Nav style */
 .main-header {
   padding: 4px;
-  /* box-shadow: 0px 0px 10px #830a0a; */
+  /* background-color: #333; */
+    /* color: rgb(163, 160, 160); */
+    padding: 10px 0;
+  /* box-shadow: 0px 0px 2px #830a0a; */
 }
 
 .main-nav {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  position:fixed;
+  justify-content: center;
+  /* position:fixed; */
   width: 100%;
   /* background-color: #f4f4f4; */
 }
@@ -77,4 +81,29 @@ body {
   align-items: end;
   margin-bottom: 30px;
   margin-top: 30px;
+}
+.main-footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-container p {
+  margin: 10px 0;
+}
+
+.social-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.social-links a:hover {
+  color: #ff6347;
 }
