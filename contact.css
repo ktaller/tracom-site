@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-weight: bolder;
+  line-height: 1.6;
+  align-items: center;
+  
+  margin-top: 4px;
+  background-color: #9b9471;
+  /* background-image: url("./Assets/particles.webp"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Nav style */
+.main-header {
+  padding: 4px;
+  /* box-shadow: 0px 0px 10px #830a0a; */
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position:fixed;
+  width: 100%;
+  /* background-color: #f4f4f4; */
+}
+.main-logo {
+  width: 100px;
+  height: 50px;
+}
+
+#main-nav-ul {
+  list-style: none;
+  display: grid;
+  display: flex;
+  justify-content: space-evenly;
+  width: 500px;
+}
+
+#main-nav-ul li a {
+  text-decoration: none;
+}
+#main-nav-ul li a:hover {
+  color: #007bff;
+}
+
+.c_form {
+  background-color: rgb(107, 105, 114);
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+  border-radius: 30px;
+  padding-top: 0px;
+  margin-top: 50px;
+  padding: 20px;
+}
+.c_form h3 {
+  padding: 6%;
+  font-size: larger;
+  font-style: italic;
+}
+.place-h {
+  font-weight: 500;
+}
+.submit {
+  background-color: rgb(182, 182, 207);
+  padding: 02px;
+  border-radius: 10px;
+  /* justify-content: end; */
+  align-items: end;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}

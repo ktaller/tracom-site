@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body class="body">
+    <header class="main-header">
+      <nav class="main-nav">
+        <img
+          src="Assets/tracom_services_cover.jpg"
+          alt="tracom-logo"
+          class="main-logo"
+        />
+        <ul id="main-nav-ul">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <!-- <li><a href="#">Services</a></li> -->
+          <!-- <li><a href="#">Team</a></li> -->
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="c_form">
+      <div class="form_container">
+        <!-- <div>
+                   <h1>contact us</h1>
+               <img src="./Assets/message.svg" alt="msg icon">
+               </div>           -->
+        <h3>Your details here..</h3>
+        <form id="contactForm" action="#">
+          <label for="f_name" class="place-h">First name:</label><br />
+          <input
+            type="text"
+            id="f_name"
+            placeholder="input your First name"
+            required
+          /><br />
+
+          <label for="l_name" class="place-h">Last name:</label><br />
+          <input
+            type="text"
+            id="l_name"
+            placeholder="input your last name"
+          /><br />
+
+          <label for="email" class="place-h">Email:</label><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="email@gmail.com"
+            required
+          /><br />
+
+          <label for="phone" class="place-h">Phone:</label><br />
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="input your telephone number"
+          /><br />
+
+          <label for="message" class="place-h">Message:</label><br />
+          <textarea
+            name="message"
+            id="message"
+            rows="4"
+            placeholder="input your message here..."
+            required
+          ></textarea
+          ><br />
+
+          <button type="submit-button" class="submit" onclick="myFunction()">
+            Submit
+          </button>
+          <!-- class="contact-info"> -->
+          <h2>Contact us,</h2>
+          <address>
+            Tracom Services Limited<br />
+            Nairobi, Kenya 00208<br />
+            Phone: <a href="tel:+254705972628">+254705972628</a><br />
+            Email:
+            <a href="mailto:admin.tracom@gmail.com">admin.tracom@gmail.com</a>
+          </address>
+          <script defer src="contact.js">
+            // document.getElementById("submit-button").addEventListener("click", myfunction);
+            // function myFunction() {
+            //   alert("Form Submitted Successfully");
+            //   form.reset();
+            // }
+          </script>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
